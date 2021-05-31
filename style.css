@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+}
+
+header {
+    background: no-repeat center/cover  url('assets/header-image.jpg');
+    height: calc(100vh - 150px);
 }
 
 nav {
