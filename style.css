@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+nav p {
+    font-weight: bold;
+}
+
 ul {
     list-style: none;
     display: flex;
 }
 
 li {
-    margin: 0 15px;
+    margin: auto 15px;
 }
