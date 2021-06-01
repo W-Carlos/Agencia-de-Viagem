@@ -56,14 +56,37 @@ button {
     border-radius: 8px;
     font-weight: bold;
     border: none;
-    background: orange;
+    background: #F19B39;
     color: white;
     cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.pacotes {
-    
+button:hover{
+    background-color: #c98130;
+}
+
+.pacotes { 
     height: 500px;
+    background: rgb(27, 27, 187);
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 350px;
+    background: green;
+    border-radius: 24px 0;
+    margin: auto;
+}
+
+.pacotes .card-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0;
+}
+
+.pacotes .card-content ul {
+    display: flex;
 }
 
 /*RESPONSIVIDADE*/
@@ -78,27 +101,28 @@ button {
         height: calc(100vh - 55px);
     }
 
-    header nav p {
-        width: 100%;
-        text-align: center;
-    }
-    
     header nav ul {
        position: fixed;
        bottom: 0;
        left: 0;
        width: 100%;
        padding: 0;
+       margin: 0;
 
        background: rgb(41, 41, 236);
        height: 55px;
-       margin: 0;
-
+       
        color: white;
        font-weight: bold;
 
        display: flex;
        justify-content: space-between;
+       align-items: center;
+    }
+
+    header nav p {
+        width: 100%;
+        text-align: center;
     }
 }
 
