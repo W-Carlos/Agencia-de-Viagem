@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,400;0,600,700;1,400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -13,6 +13,7 @@ body {
 header {
     background: no-repeat center/cover  url('assets/header-image.jpg');
     height: calc(100vh - 150px);
+    color: white;
 }
 
 nav {
@@ -32,4 +33,29 @@ ul {
 
 li {
     margin: auto 15px;
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 110px auto;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-weight: 300;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    background: orange;
+    color: white;
 }
