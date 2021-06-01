@@ -13,7 +13,7 @@ body {
 header {
     background: no-repeat center/cover  url('assets/header-image.jpg');
     height: calc(100vh - 150px);
-    color: black;
+    color: white;
 }
 
 header nav {
@@ -61,18 +61,30 @@ button {
     cursor: pointer;
 }
 
+.pacotes {
+    
+    height: 500px;
+}
+
 /*RESPONSIVIDADE*/
 /*Landscape phone to portrait table*/
 @media (max-width: 767px){
-    header {
-        background: red;
-    }
+    
 }
 
 /*Landscape phones and down*/
 @media (max-width: 480px) {
+    body {
+        height: calc(100vh - 55px);
+    }
+
+    header nav p {
+        width: 100%;
+        text-align: center;
+    }
+    
     header nav ul {
-       position: absolute;
+       position: fixed;
        bottom: 0;
        left: 0;
        width: 100%;
@@ -81,6 +93,9 @@ button {
        background: rgb(41, 41, 236);
        height: 55px;
        margin: 0;
+
+       color: white;
+       font-weight: bold;
 
        display: flex;
        justify-content: space-between;
