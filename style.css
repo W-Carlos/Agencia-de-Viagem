@@ -13,25 +13,25 @@ body {
 header {
     background: no-repeat center/cover  url('assets/header-image.jpg');
     height: calc(100vh - 150px);
-    color: white;
+    color: black;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
     margin: 0 30px;
 }
 
-nav p {
+header nav p {
     font-weight: bold;
 }
 
-ul {
+header nav ul {
     list-style: none;
     display: flex;
 }
 
-li {
+header nav ul li {
     margin: auto 15px;
 }
 
@@ -58,4 +58,43 @@ button {
     border: none;
     background: orange;
     color: white;
+    cursor: pointer;
 }
+
+/*RESPONSIVIDADE*/
+/*Landscape phone to portrait table*/
+@media (max-width: 767px){
+    header {
+        background: red;
+    }
+}
+
+/*Landscape phones and down*/
+@media (max-width: 480px) {
+    header nav ul {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       padding: 0;
+
+       background: rgb(41, 41, 236);
+       height: 55px;
+       margin: 0;
+
+       display: flex;
+       justify-content: space-between;
+    }
+}
+
+
+
+/*Portrait table to landscape and desktop*/
+/*@media (min-width: 768px) and (max-width: 979px){
+
+}*/
+
+/*Large desktop*/
+/*@media (min-width: 1200px){
+
+}*/
