@@ -94,6 +94,7 @@ button:hover{
     border-radius: 24px 0;
     margin: 25px;
     position: relative;
+    transition: all 1s;
 }
 
 .pacotes .card-image {
@@ -159,6 +160,10 @@ button:hover{
     color: white;
 }
 
+.card:hover {
+    transform: scale(1.1);
+}
+
 /*SERVIÇOS*/
 .servicos {
     padding: 15px;
@@ -216,6 +221,10 @@ button:hover{
 
 .servicos button {
     background-color: #1D61DD;
+}
+
+.servicos button:hover {
+    background-color: #387dff;
 }
 
 /*RESPONSIVIDADE*/
