@@ -159,6 +159,48 @@ button:hover{
     color: white;
 }
 
+/*SERVIÇOS*/
+.servicos {
+    padding: 15px;
+}
+
+.servicos .servicos-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.servicos .servicos-cards {
+    padding-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+}
+
+.servicos .card p {
+    color: grey;
+    font-size: .8rem;
+    text-align: center;
+}
+
 /*RESPONSIVIDADE*/
 /*Landscape phone to portrait table*/
 @media (max-width: 767px){
