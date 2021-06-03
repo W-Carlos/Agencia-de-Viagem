@@ -10,6 +10,10 @@ body {
     width: 100vw;
 }
 
+ul {
+    list-style: none;
+}
+
 header {
     background: no-repeat center/cover  url('assets/header-image.jpg');
     height: calc(100vh - 150px);
@@ -251,6 +255,30 @@ button:hover{
 
     top: calc(50% - 150px);
     left: calc(20% - 175px);
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato .contato-card h1 {
+    margin-left: 50px;
+    text-align: left;
+}
+
+.contato .contato-card li {
+    font-size: .8rem;
+    font-weight: bold;
+    color: gray;
+
+    display: flex;
+    align-items: center;
+}
+
+.contato .contato-card li svg {
+    width: 16px;
+    margin: 10px;
 }
 
 /*RESPONSIVIDADE*/
