@@ -8,6 +8,8 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 ul {
@@ -169,6 +171,10 @@ button:hover{
     color: white;
 }
 
+.card-p:hover {
+    box-shadow: 1px 5px 25px rgba(15, 15, 15, 0.521);
+}
+
 .card:hover {
     transform: scale(1.1);
 }
@@ -191,6 +197,7 @@ button:hover{
     justify-content: center;
     margin: auto;
     flex-wrap: wrap;
+    
 }
 
 .servicos .card {
@@ -200,6 +207,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     margin: 0 20px;
+    transition: all 1s;
 }
 
 .servicos .card svg {
