@@ -46,6 +46,15 @@ header nav ul li {
     margin: auto 15px;
 }
 
+header nav ul li a {
+    padding: 15px;
+}
+
+header nav ul li a:hover {
+    background-color: #387dff;
+    border-radius: 10px;
+}
+
 .header-content {
     max-width: 600px;
     margin: 110px auto;
@@ -310,7 +319,7 @@ footer {
 }
 
 footer .icons img {
-    margin: 10px;
+    margin: 15px;
     width: 1.6rem;
     transition: 0.8s;
     cursor: pointer;
@@ -324,6 +333,7 @@ footer .icons img:hover {
     margin: 10px 10px 0 10px;
     display: flex;
     justify-content: space-around;
+    
 }
 
 footer a:hover {
